@@ -1,0 +1,83 @@
+{
+    "units": "1/cm",
+    "N": [
+        1,
+        7,
+        7
+    ],
+    "energies": [
+        0,
+        15342.363867281076,
+        16312.363867281065
+    ],
+    "dipy": [
+        1.0274289040365627,
+        4.3811402450903385,
+        0
+    ],
+    "dipx": [
+        1.0,
+        0.0,
+        0.0
+    ],
+    "omega": [
+        1500,
+        1500
+    ],
+    "hr1": [
+        0.04314754136132002,
+        0.00044450676625716986
+    ],
+    "dia_alpha1": 750,
+    "second_mode": false,
+    "secular_relaxation": false,
+    "time_dependent": true,
+    "ti": 0,
+    "tf": 10000,
+    "dt": 0.2,
+    "B777_alternative_form": false,
+    "gamma": 60,
+    "T": 295,
+    "matsubara": 100,
+    "exc_pulse_freq": 17500,
+    "exc_pulse_width": 100,
+    "home_path": "C:/Users/micha/Documents/Studium/MScThesis/data-2/",
+    "save_dir": "man-scan-pyr-06-177-v02",
+    "save": false,
+    "relaxation_theory": "standard_Redfield",
+    "method": "short-exp",
+    "use_diskarray": false,
+    "parallel": true,
+    "njobs": 4,
+    "use_gpu": false,
+    "my_propagator": true,
+    "label": "",
+    "ref_id": 6,
+    "truncate_system": false,
+    "truncate_lims": [
+        0,
+        20000
+    ],
+    "spectral_density_el": {
+        "cf": "OverdampedBrownian",
+        "reorg": 58.83989410032457,
+        "cortime": 60.29433702713778
+    },
+    "scaled_OB_CF_vib_11": {
+        "omega": 1500,
+        "HR": 0.04314754136132002,
+        "target_time": 19.22986701435995,
+        "Nmax": 15,
+        "reorg": 40,
+        "cortime": 50.170159494363695
+    },
+    "scaled_OB_CF_vib_12": {
+        "omega": 1500,
+        "HR": 0.00044450676625716986,
+        "target_time": 250.07648935889173,
+        "Nmax": 15,
+        "reorg": 40,
+        "cortime": 39.84353519773851
+    },
+    "angle": 70.4554854849229
+}

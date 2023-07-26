@@ -1,0 +1,104 @@
+{
+    "units": "1/cm",
+    "N": [
+        1,
+        4,
+        4
+    ],
+    "energies": [
+        0,
+        15421.677707981537,
+        16391.677707981537
+    ],
+    "dipy": [
+        1.893379728590062,
+        4.082292640583747,
+        0
+    ],
+    "dipx": [
+        0.8644314197384301,
+        0.0,
+        0.0
+    ],
+    "omega": [
+        1500,
+        1328.3395554837668
+    ],
+    "hr1": [
+        3.802160269574205e-05,
+        0.033040682824969
+    ],
+    "hr2": [
+        0.01817882807772974,
+        1.1595190153083873e-05
+    ],
+    "dia_alpha1": 750,
+    "dia_alpha2": 217.3495909177783,
+    "second_mode": true,
+    "secular_relaxation": false,
+    "time_dependent": true,
+    "ti": 0,
+    "tf": 10000,
+    "dt": 0.2,
+    "B777_alternative_form": false,
+    "gamma": 60,
+    "T": 295,
+    "matsubara": 100,
+    "exc_pulse_freq": 17500,
+    "exc_pulse_width": 100,
+    "home_path": "C:/Users/micha/Documents/Studium/MScThesis/data-2/",
+    "save_dir": "man-scan-pyr-06-177-v02",
+    "save": false,
+    "relaxation_theory": "standard_Redfield",
+    "method": "short-exp",
+    "use_diskarray": false,
+    "parallel": true,
+    "njobs": 4,
+    "use_gpu": false,
+    "my_propagator": true,
+    "label": "",
+    "ref_id": 6,
+    "truncate_system": false,
+    "truncate_lims": [
+        0,
+        20000
+    ],
+    "spectral_density_el": {
+        "cf": "OverdampedBrownian",
+        "reorg": 74.2739021097526,
+        "cortime": 115.71365396656971
+    },
+    "scaled_OB_CF_vib_11": {
+        "omega": 1500,
+        "HR": 3.802160269574205e-05,
+        "target_time": 28.762484394215495,
+        "Nmax": 15,
+        "reorg": 40,
+        "cortime": 47.24465174318811
+    },
+    "scaled_OB_CF_vib_12": {
+        "omega": 1500,
+        "HR": 0.033040682824969,
+        "target_time": 241.69003234410266,
+        "Nmax": 15,
+        "reorg": 40,
+        "cortime": 66.70245912741993
+    },
+    "scaled_OB_CF_vib_21": {
+        "omega": 1328.3395554837668,
+        "HR": 0.01817882807772974,
+        "target_time": 39.86751993732764,
+        "Nmax": 15,
+        "reorg": 40,
+        "cortime": 59.81232427652227
+    },
+    "scaled_OB_CF_vib_22": {
+        "omega": 1328.3395554837668,
+        "HR": 1.1595190153083873e-05,
+        "target_time": 200,
+        "Nmax": 15,
+        "reorg": 40,
+        "cortime": 40
+    },
+    "angle": 70.25156164485867
+}
